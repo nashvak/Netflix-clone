@@ -1,0 +1,293 @@
+/*css reset*/
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+body {
+  background-color: black;
+}
+header {
+  position: fixed;
+  padding: 20px 50px;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  
+ 
+ 
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+ 
+  align-items: center;
+}
+.logo  {
+  width: 80px;
+  cursor: pointer;
+}
+
+ul a {
+  color: rgb(255, 254, 254);
+  font-size: 17px;
+  padding: 10px 8px;
+  text-decoration: none;
+  font-weight: 400px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+
+.navbar li a {
+  transition: color ease 0.8 s;
+}
+.navbar li:hover a {
+  color: grey;
+}
+a img {
+  color: white;
+}
+
+ul {
+  display: flex;
+  
+  margin: 0%;
+  padding-right: 20px;
+  list-style-type: none;
+}
+li a {
+  justify-content: space-between;
+}
+
+.navbar ul {
+  color: white;
+  margin-left: 30px;
+}
+.left-nav{
+  display: flex;
+}
+
+
+
+/*RIGHT SIDE NAVIGATION*/
+
+
+
+.nav-item i {
+  cursor: pointer;
+  padding: 30px;
+  color: white;
+  font-size: 20px;
+ 
+}
+
+.avatar {
+  height: 40px;
+  left: 20px;
+ 
+}
+.box {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+ 
+  
+}
+
+.navItem {
+  margin-left: 2rem;
+}
+.user{
+  color: white;
+  font-size: 1.2rem;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+
+
+
+
+/* HOME IMAGE*/
+.home-img img {
+  width: 100%;
+  height: 800px;
+}
+.heading{
+  height: 179px;
+    width: 312px;
+    margin-bottom: 1.5rem;
+}
+.heading img{
+  height: 100%;
+  width: 100%;
+}
+.home-img {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.home-content {
+  position: absolute;
+  top: 30%;
+  left: 50px; /* header nte padding ,  logo kk nere thazhe ayi varum*/
+  transform: translateY(-22%);/*image ullil text center il align cheyyan*/
+  max-width: 376px; /*h1 il ullad oru line ayittayrikkum varuka,so volkswagon ne thazhe kond varan width kurakkuka,apo cheriya box nu ullil avum*/
+}
+.home-content p {
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 1.2vw;
+  font-weight: 400;
+  line-height: normal;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+}
+
+.home-content .btn {
+  background-color: white;
+  color: black;
+  font-size: 19px;
+  text-decoration: none;
+  padding: 7px 28px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color ease 0.3s; /*hover nu time kodkkanel define here*/
+  margin-right: 1rem;
+  
+}
+.home-content .btn1 {
+  background-color: grey;
+  color: white;
+  font-size: 19px;
+  text-decoration: none;
+  padding: 7px 20px;
+  border-radius: 5px;
+  font-weight: 400;
+  transition: background-color ease 0.3s;
+}
+.home-content i{
+  margin-right: 9px;
+  font-size: 23px;
+}
+.home-content .btn:hover {
+  background-color: rgb(219, 212, 212);
+  
+}
+.home-content .btn1:hover {
+  background-color: rgb(150, 144, 144);
+  
+}
+
+
+
+/*Posters */
+.films{
+    margin-left: 25px;
+    position: relative;
+    margin-top: -150px;
+    
+    
+}
+.row {
+  margin-left: 20px;
+  color: #e5e5e5;
+  box-sizing: border-box;
+  margin: 2vw 0;
+  cursor: pointer;
+  
+}
+.posters {
+  display: flex;
+ padding-top: 10px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  
+ 
+
+}
+.title{
+ display: table-cell;
+font-size: 1vw;
+line-height: 1.25vw;
+vertical-align: bottom;
+font-weight: 400;
+line-height: 1.3;
+}
+.posters::-webkit-scrollbar {
+  /*scroll bar hide cheyyan*/
+  display: none;
+}
+.poster {
+  max-height: 200px;
+  width: 25%;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+.handle .handleNext .active{
+    background: hsla(0,0%,8%,.7);
+    border-bottom-left-radius: 4px;
+border-top-left-radius: 4px;
+right: 0;
+
+}
+
+
+
+
+/*FOOTER SECTION*/
+
+.footer-section {
+  padding: 90px 130px 30px 200px;
+}
+a{
+    cursor: pointer;
+}
+.social-icons i {
+  color: white;
+  margin-right: 1em;
+  font-size: 1.3em;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+}
+.items {
+  color: grey;
+  margin-bottom: 16px;
+  font-size: 13px;
+  flex-basis: 25%;
+  
+}
+.ul-items{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.member-footer-service .service-code{
+font-size: 13px;
+margin-bottom: 20px;
+padding: 0.5em;
+}
+.service-code{
+background: transparent;
+border: 1px solid grey;
+color: grey;
+cursor: pointer;
+}
+.member-footer-copyright{
+font-size: 11px;
+margin-bottom: 15px;
+color: grey;
+}
+
+
+
+
+
+
+
+
+
+    
+    
+    
